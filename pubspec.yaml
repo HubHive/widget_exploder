@@ -1,0 +1,22 @@
+name: widget_dissolver
+description: A Flutter package for [your package description].
+version: 0.0.1
+homepage: https://github.com/yourusername/sand
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  # This section is optional if your package doesn't include any assets
+  # assets:
+  #   - assets/ 
