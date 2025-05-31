@@ -2,6 +2,7 @@ name: widget_dissolver
 description: A Flutter package for [your package description].
 version: 0.0.1
 homepage: https://github.com/yourusername/sand
+license: MIT
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
