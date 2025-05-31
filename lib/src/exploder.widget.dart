@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'dart:math' as math;
 
-import 'package:widget_dissolver/src/exploder.controller.dart';
-import 'package:widget_dissolver/src/painter.dart';
-import 'package:widget_dissolver/src/particle.dart';
+import 'package:widget_exploder/src/exploder.controller.dart';
+import 'package:widget_exploder/src/painter.dart';
+import 'package:widget_exploder/src/particle.dart';
 
 class Exploder extends StatefulWidget {
   final Widget child;

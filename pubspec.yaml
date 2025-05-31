@@ -1,7 +1,7 @@
-name: widget_dissolver
-description: A Flutter package for [your package description].
+name: widget_exploder
+description: A Flutter package for exploding widgets into tiny pieces.
 version: 0.0.1
-homepage: https://github.com/yourusername/sand
+homepage: https://github.com/hubhive/widget_exploder
 license: MIT
 
 environment:
@@ -18,6 +18,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  # This section is optional if your package doesn't include any assets
   # assets:
   #   - assets/ 

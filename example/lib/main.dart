@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_dissolver/widget_exploder.dart';
+import 'package:widget_exploder/widget_exploder.dart';
 
 void main() {
   runApp(const WidgetExploderDemoApp());
