@@ -6,7 +6,6 @@ class Particle {
   Offset velocity;
   Color color;
   bool _isPiled = false;
-  final double _initialY;
   final double _originalHeight;
   final double _originalWidth;
   final double mass;
@@ -19,8 +18,7 @@ class Particle {
     required this.color,
     required double originalHeight,
     required double originalWidth,
-  })  : _initialY = position.dy,
-        _originalHeight = originalHeight,
+  })  : _originalHeight = originalHeight,
         _originalWidth = originalWidth,
         mass = 1.0 + math.Random().nextDouble() * 0.5, // Random mass between 1.0 and 1.5
         restitution = 0.7 + math.Random().nextDouble() * 0.2; // Random bounciness between 0.7 and 0.9
