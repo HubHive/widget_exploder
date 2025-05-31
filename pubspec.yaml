@@ -1,6 +1,6 @@
 name: widget_exploder
 description: A Flutter package for exploding widgets into tiny pieces.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/hubhive/widget_exploder
 license: MIT
 
