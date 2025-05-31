@@ -1,12 +1,7 @@
 # Widget Exploder
 
-A Flutter package for [your package description].
+A Flutter package for exploding widgets into tiny pieces.
 
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
 
 ## Getting started
 
@@ -24,19 +19,27 @@ import 'package:widget_exploder/widget_exploder.dart';
 
 final _controller = ExploderController();
 
-Exploder(
-    controller: _controller,
-    duration: const Duration(seconds: 3),
-    child: Container(
-        padding: const EdgeInsets.all(40),
-        decoration: BoxDecoration(
-            color: Colors.blueAccent,
-            borderRadius: BorderRadius.circular(16),
+Column(
+    children: [
+        Exploder(
+            controller: _controller,
+            duration: const Duration(seconds: 3),
+            child: Container(
+                padding: const EdgeInsets.all(40),
+                decoration: BoxDecoration(
+                    color: Colors.blueAccent,
+                    borderRadius: BorderRadius.circular(16),
+                ),
+                child: const Text(
+                    'Explode Me!',
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                ),
+            ),
         ),
-        child: const Text(
-            'Explode Me!',
-            style: TextStyle(color: Colors.white, fontSize: 20),
+        ElevatedButton(
+            onPressed: _controller.trigger ? null : _controller.dissolve,
+            child: const Text('Trigger Explosion'),
         ),
-    ),
-),
+    ]
+)
 ```

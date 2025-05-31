@@ -27,7 +27,6 @@ class Exploder extends StatefulWidget {
 
 class _ExploderState extends State<Exploder> with SingleTickerProviderStateMixin {
   final _key = GlobalKey();
-  final _childKey = GlobalKey();
   ui.Image? _image;
   List<Particle> _particles = [];
   late AnimationController _controller;
