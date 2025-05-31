@@ -55,11 +55,11 @@ class _DemoHomePageState extends State<DemoHomePage> {
             ),
             const SizedBox(height: 40),
             ElevatedButton(
-              onPressed: _controller.trigger ? null : _controller.dissolve,
+              onPressed: _controller.trigger ? null : _controller.explode,
               child: const Text('Trigger Explosion'),
             ),
             ElevatedButton(
-              onPressed: _controller.resetDissolver,
+              onPressed: _controller.resetExploder,
               child: const Text('Reset'),
             ),
           ],

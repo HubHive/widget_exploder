@@ -19,7 +19,7 @@ class ExploderController extends ChangeNotifier {
     notifyListeners();
   }
 
-  void dissolve() {
+  void explode() {
     _trigger = true;
     notifyListeners();
   }
@@ -27,12 +27,12 @@ class ExploderController extends ChangeNotifier {
   void animationComplete() {
     if (_autoReset) {
       Future.delayed(_autoResetDelay, () {
-        resetDissolver();
+        resetExploder();
       });
     }
   }
 
-  void resetDissolver() {
+  void resetExploder() {
     _trigger = false;
     _reset = true;
     notifyListeners();
